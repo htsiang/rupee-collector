@@ -1,0 +1,68 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background: #97f0fa;
+}
+
+.container {
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 60%;
+    height: 250px;
+}
+
+#pixel-scroll {
+    width: 100%;
+    height: 100%;
+}
+
+#instructions {
+    position: absolute;
+    top: 65px;
+    left: 13%;
+    width: 34%;
+}
+
+.status {
+    float: right;
+    width: 40%;
+    position: relative;
+}
+
+.quest {
+    padding: 10px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.wallet {
+    position: absolute;
+    left: 0px;
+    top: 30px;
+}
+
+#rupee {
+    width: 50px;
+}
+
+.wins {
+    position: absolute;
+    font-size: 40px;
+    right: 0px;
+    top: 0px;
+}
+
+.losses {
+    position: absolute;
+    right: 0px;
+    top: 100px;
+}
+
+.game-container {
+    top: 200px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}

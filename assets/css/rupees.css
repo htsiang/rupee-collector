@@ -1,0 +1,651 @@
+/*
+colors for rupees: 
+green: #48f400
+red: #c12a28
+blue: #0000f8
+yellow: #f6b61b
+*/
+
+#rupee1 {
+    height: 7px;
+    width: 7px;
+    font-size: 7px;
+    background: #000000;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    
+    box-shadow: 
+        /* column -4 */
+        -4em 4em #000000,
+        -4em 5em #000000,
+        -4em 6em #000000,
+        -4em 7em #000000,
+        -4em 8em #000000,
+        -4em 9em #000000,
+        -4em 10em #000000,
+        -4em 11em #000000,
+        -4em 12em #000000,
+        
+        /* column -3 */
+        -3em 3em #000000,
+        -3em 4em #ffffff,
+        -3em 5em #ffffff,
+        -3em 6em #ffffff,
+        -3em 7em #ffffff,
+        -3em 8em #ffffff,
+        -3em 9em #ffffff,
+        -3em 10em #ffffff,
+        -3em 11em #ffffff,
+        -3em 12em #48f400,
+        -3em 13em #000000,
+        
+        /* column -2 */
+        -2em 2em #000000,
+        -2em 3em #ffffff,
+        -2em 4em #48f400,
+        -2em 5em #ffffff,
+        -2em 6em #ffffff,
+        -2em 7em #ffffff,
+        -2em 8em #ffffff,
+        -2em 9em #ffffff,
+        -2em 10em #ffffff,
+        -2em 11em #48f400,
+        -2em 12em #48f400,
+        -2em 13em #48f400,
+        -2em 14em #000000,
+        
+        /*column -1 */
+        -1em 1em #000000,
+        -1em 2em #ffffff,
+        -1em 3em #ffffff,
+        -1em 4em #ffffff,
+        -1em 5em #48f400,
+        -1em 6em #48f400,
+        -1em 7em #48f400,
+        -1em 8em #48f400,
+        -1em 9em #48f400,
+        -1em 10em #48f400,
+        -1em 11em #ffffff,
+        -1em 12em #48f400,
+        -1em 13em #48f400,
+        -1em 14em #48f400,
+        -1em 15em #000000,
+        
+        /* column 0 */
+        0 0 #000000,
+        0 1em #ffffff,
+        0 2em #ffffff,
+        0 3em #ffffff,
+        0 4em #48f400,
+        0 5em #48f400,
+        0 6em #48f400,
+        0 7em #48f400,
+        0 8em #48f400,
+        0 9em #48f400,
+        0 10em #48f400,
+        0 11em #48f400,
+        0 12em #ffffff,
+        0 13em #48f400,
+        0 14em #48f400,
+        0 15em #48f400,
+        0 16em #000000,
+        
+        /* column 1 */
+        1em 0 #000000,
+        1em 1em #48f400,
+        1em 2em #48f400,
+        1em 3em #48f400,
+        1em 4em #000000,
+        1em 5em #48f400,
+        1em 6em #48f400,
+        1em 7em #48f400,
+        1em 8em #48f400,
+        1em 9em #48f400,
+        1em 10em #48f400,
+        1em 11em #48f400,
+        1em 12em #000000,
+        1em 13em #48f400,
+        1em 14em #48f400,
+        1em 15em #48f400,
+        1em 16em #000000,
+        
+        /* column 2 */
+        2em 1em #000000,
+        2em 2em #48f400,
+        2em 3em #48f400,
+        2em 4em #48f400,
+        2em 5em #000000,
+        2em 6em #000000,
+        2em 7em #000000,
+        2em 8em #000000,
+        2em 9em #000000,
+        2em 10em #000000,
+        2em 11em #000000,
+        2em 12em #ffffff,
+        2em 13em #48f400,
+        2em 14em #48f400,
+        2em 15em #000000,
+        
+        /* column 3 */
+        3em 2em #000000,
+        3em 3em #48f400,
+        3em 4em #000000,
+        3em 5em #48f400,
+        3em 6em #48f400,
+        3em 7em #48f400,
+        3em 8em #48f400,
+        3em 9em #48f400,
+        3em 10em #48f400,
+        3em 11em #48f400,
+        3em 12em #000000,
+        3em 13em #48f400,
+        3em 14em #000000,
+        
+        /* column 4 */
+        4em 3em #000000,
+        4em 4em #48f400,
+        4em 5em #48f400,
+        4em 6em #48f400,
+        4em 7em #48f400,
+        4em 8em #48f400,
+        4em 9em #48f400,
+        4em 10em #48f400,
+        4em 11em #48f400,
+        4em 12em #48f400,
+        4em 13em #000000,
+        
+        /* column 5 */
+        5em 4em #000000,
+        5em 5em #000000,
+        5em 6em #000000,
+        5em 7em #000000,
+        5em 8em #000000,
+        5em 9em #000000,
+        5em 10em #000000,
+        5em 11em #000000,
+        5em 12em #000000;
+}
+
+#rupee2 {
+    height: 7px;
+    width: 7px;
+    font-size: 7px;
+    background: #000000;
+    position: absolute;
+    bottom: 150px;
+    left: 150px;
+    
+    box-shadow: 
+        /* column -4 */
+        -4em 4em #000000,
+        -4em 5em #000000,
+        -4em 6em #000000,
+        -4em 7em #000000,
+        -4em 8em #000000,
+        -4em 9em #000000,
+        -4em 10em #000000,
+        -4em 11em #000000,
+        -4em 12em #000000,
+        
+        /* column -3 */
+        -3em 3em #000000,
+        -3em 4em #ffffff,
+        -3em 5em #ffffff,
+        -3em 6em #ffffff,
+        -3em 7em #ffffff,
+        -3em 8em #ffffff,
+        -3em 9em #ffffff,
+        -3em 10em #ffffff,
+        -3em 11em #ffffff,
+        -3em 12em #c12a28,
+        -3em 13em #000000,
+        
+        /* column -2 */
+        -2em 2em #000000,
+        -2em 3em #ffffff,
+        -2em 4em #c12a28,
+        -2em 5em #ffffff,
+        -2em 6em #ffffff,
+        -2em 7em #ffffff,
+        -2em 8em #ffffff,
+        -2em 9em #ffffff,
+        -2em 10em #ffffff,
+        -2em 11em #c12a28,
+        -2em 12em #c12a28,
+        -2em 13em #c12a28,
+        -2em 14em #000000,
+        
+        /*column -1 */
+        -1em 1em #000000,
+        -1em 2em #ffffff,
+        -1em 3em #ffffff,
+        -1em 4em #ffffff,
+        -1em 5em #c12a28,
+        -1em 6em #c12a28,
+        -1em 7em #c12a28,
+        -1em 8em #c12a28,
+        -1em 9em #c12a28,
+        -1em 10em #c12a28,
+        -1em 11em #ffffff,
+        -1em 12em #c12a28,
+        -1em 13em #c12a28,
+        -1em 14em #c12a28,
+        -1em 15em #000000,
+        
+        /* column 0 */
+        0 0 #000000,
+        0 1em #ffffff,
+        0 2em #ffffff,
+        0 3em #ffffff,
+        0 4em #c12a28,
+        0 5em #c12a28,
+        0 6em #c12a28,
+        0 7em #c12a28,
+        0 8em #c12a28,
+        0 9em #c12a28,
+        0 10em #c12a28,
+        0 11em #c12a28,
+        0 12em #ffffff,
+        0 13em #c12a28,
+        0 14em #c12a28,
+        0 15em #c12a28,
+        0 16em #000000,
+        
+        /* column 1 */
+        1em 0 #000000,
+        1em 1em #c12a28,
+        1em 2em #c12a28,
+        1em 3em #c12a28,
+        1em 4em #000000,
+        1em 5em #c12a28,
+        1em 6em #c12a28,
+        1em 7em #c12a28,
+        1em 8em #c12a28,
+        1em 9em #c12a28,
+        1em 10em #c12a28,
+        1em 11em #c12a28,
+        1em 12em #000000,
+        1em 13em #c12a28,
+        1em 14em #c12a28,
+        1em 15em #c12a28,
+        1em 16em #000000,
+        
+        /* column 2 */
+        2em 1em #000000,
+        2em 2em #c12a28,
+        2em 3em #c12a28,
+        2em 4em #c12a28,
+        2em 5em #000000,
+        2em 6em #000000,
+        2em 7em #000000,
+        2em 8em #000000,
+        2em 9em #000000,
+        2em 10em #000000,
+        2em 11em #000000,
+        2em 12em #ffffff,
+        2em 13em #c12a28,
+        2em 14em #c12a28,
+        2em 15em #000000,
+        
+        /* column 3 */
+        3em 2em #000000,
+        3em 3em #c12a28,
+        3em 4em #000000,
+        3em 5em #c12a28,
+        3em 6em #c12a28,
+        3em 7em #c12a28,
+        3em 8em #c12a28,
+        3em 9em #c12a28,
+        3em 10em #c12a28,
+        3em 11em #c12a28,
+        3em 12em #000000,
+        3em 13em #c12a28,
+        3em 14em #000000,
+        
+        /* column 4 */
+        4em 3em #000000,
+        4em 4em #c12a28,
+        4em 5em #c12a28,
+        4em 6em #c12a28,
+        4em 7em #c12a28,
+        4em 8em #c12a28,
+        4em 9em #c12a28,
+        4em 10em #c12a28,
+        4em 11em #c12a28,
+        4em 12em #c12a28,
+        4em 13em #000000,
+        
+        /* column 5 */
+        5em 4em #000000,
+        5em 5em #000000,
+        5em 6em #000000,
+        5em 7em #000000,
+        5em 8em #000000,
+        5em 9em #000000,
+        5em 10em #000000,
+        5em 11em #000000,
+        5em 12em #000000;
+}
+
+#rupee3 {
+    height: 7px;
+    width: 7px;
+    font-size: 7px;
+    background: #000000;
+    position: absolute;
+    top: 150px;
+    right: 150px;
+    
+    box-shadow: 
+        /* column -4 */
+        -4em 4em #000000,
+        -4em 5em #000000,
+        -4em 6em #000000,
+        -4em 7em #000000,
+        -4em 8em #000000,
+        -4em 9em #000000,
+        -4em 10em #000000,
+        -4em 11em #000000,
+        -4em 12em #000000,
+        
+        /* column -3 */
+        -3em 3em #000000,
+        -3em 4em #ffffff,
+        -3em 5em #ffffff,
+        -3em 6em #ffffff,
+        -3em 7em #ffffff,
+        -3em 8em #ffffff,
+        -3em 9em #ffffff,
+        -3em 10em #ffffff,
+        -3em 11em #ffffff,
+        -3em 12em #0000f8,
+        -3em 13em #000000,
+        
+        /* column -2 */
+        -2em 2em #000000,
+        -2em 3em #ffffff,
+        -2em 4em #0000f8,
+        -2em 5em #ffffff,
+        -2em 6em #ffffff,
+        -2em 7em #ffffff,
+        -2em 8em #ffffff,
+        -2em 9em #ffffff,
+        -2em 10em #ffffff,
+        -2em 11em #0000f8,
+        -2em 12em #0000f8,
+        -2em 13em #0000f8,
+        -2em 14em #000000,
+        
+        /*column -1 */
+        -1em 1em #000000,
+        -1em 2em #ffffff,
+        -1em 3em #ffffff,
+        -1em 4em #ffffff,
+        -1em 5em #0000f8,
+        -1em 6em #0000f8,
+        -1em 7em #0000f8,
+        -1em 8em #0000f8,
+        -1em 9em #0000f8,
+        -1em 10em #0000f8,
+        -1em 11em #ffffff,
+        -1em 12em #0000f8,
+        -1em 13em #0000f8,
+        -1em 14em #0000f8,
+        -1em 15em #000000,
+        
+        /* column 0 */
+        0 0 #000000,
+        0 1em #ffffff,
+        0 2em #ffffff,
+        0 3em #ffffff,
+        0 4em #0000f8,
+        0 5em #0000f8,
+        0 6em #0000f8,
+        0 7em #0000f8,
+        0 8em #0000f8,
+        0 9em #0000f8,
+        0 10em #0000f8,
+        0 11em #0000f8,
+        0 12em #ffffff,
+        0 13em #0000f8,
+        0 14em #0000f8,
+        0 15em #0000f8,
+        0 16em #000000,
+        
+        /* column 1 */
+        1em 0 #000000,
+        1em 1em #0000f8,
+        1em 2em #0000f8,
+        1em 3em #0000f8,
+        1em 4em #000000,
+        1em 5em #0000f8,
+        1em 6em #0000f8,
+        1em 7em #0000f8,
+        1em 8em #0000f8,
+        1em 9em #0000f8,
+        1em 10em #0000f8,
+        1em 11em #0000f8,
+        1em 12em #000000,
+        1em 13em #0000f8,
+        1em 14em #0000f8,
+        1em 15em #0000f8,
+        1em 16em #000000,
+        
+        /* column 2 */
+        2em 1em #000000,
+        2em 2em #0000f8,
+        2em 3em #0000f8,
+        2em 4em #0000f8,
+        2em 5em #000000,
+        2em 6em #000000,
+        2em 7em #000000,
+        2em 8em #000000,
+        2em 9em #000000,
+        2em 10em #000000,
+        2em 11em #000000,
+        2em 12em #ffffff,
+        2em 13em #0000f8,
+        2em 14em #0000f8,
+        2em 15em #000000,
+        
+        /* column 3 */
+        3em 2em #000000,
+        3em 3em #0000f8,
+        3em 4em #000000,
+        3em 5em #0000f8,
+        3em 6em #0000f8,
+        3em 7em #0000f8,
+        3em 8em #0000f8,
+        3em 9em #0000f8,
+        3em 10em #0000f8,
+        3em 11em #0000f8,
+        3em 12em #000000,
+        3em 13em #0000f8,
+        3em 14em #000000,
+        
+        /* column 4 */
+        4em 3em #000000,
+        4em 4em #0000f8,
+        4em 5em #0000f8,
+        4em 6em #0000f8,
+        4em 7em #0000f8,
+        4em 8em #0000f8,
+        4em 9em #0000f8,
+        4em 10em #0000f8,
+        4em 11em #0000f8,
+        4em 12em #0000f8,
+        4em 13em #000000,
+        
+        /* column 5 */
+        5em 4em #000000,
+        5em 5em #000000,
+        5em 6em #000000,
+        5em 7em #000000,
+        5em 8em #000000,
+        5em 9em #000000,
+        5em 10em #000000,
+        5em 11em #000000,
+        5em 12em #000000;
+}
+
+#rupee4 {
+    height: 7px;
+    width: 7px;
+    font-size: 7px;
+    background: #000000;
+    position: absolute;
+    bottom: 150px;
+    right: 150px;
+    
+    box-shadow: 
+        /* column -4 */
+        -4em 4em #000000,
+        -4em 5em #000000,
+        -4em 6em #000000,
+        -4em 7em #000000,
+        -4em 8em #000000,
+        -4em 9em #000000,
+        -4em 10em #000000,
+        -4em 11em #000000,
+        -4em 12em #000000,
+        
+        /* column -3 */
+        -3em 3em #000000,
+        -3em 4em #ffffff,
+        -3em 5em #ffffff,
+        -3em 6em #ffffff,
+        -3em 7em #ffffff,
+        -3em 8em #ffffff,
+        -3em 9em #ffffff,
+        -3em 10em #ffffff,
+        -3em 11em #ffffff,
+        -3em 12em #f6b61b,
+        -3em 13em #000000,
+        
+        /* column -2 */
+        -2em 2em #000000,
+        -2em 3em #ffffff,
+        -2em 4em #f6b61b,
+        -2em 5em #ffffff,
+        -2em 6em #ffffff,
+        -2em 7em #ffffff,
+        -2em 8em #ffffff,
+        -2em 9em #ffffff,
+        -2em 10em #ffffff,
+        -2em 11em #f6b61b,
+        -2em 12em #f6b61b,
+        -2em 13em #f6b61b,
+        -2em 14em #000000,
+        
+        /*column -1 */
+        -1em 1em #000000,
+        -1em 2em #ffffff,
+        -1em 3em #ffffff,
+        -1em 4em #ffffff,
+        -1em 5em #f6b61b,
+        -1em 6em #f6b61b,
+        -1em 7em #f6b61b,
+        -1em 8em #f6b61b,
+        -1em 9em #f6b61b,
+        -1em 10em #f6b61b,
+        -1em 11em #ffffff,
+        -1em 12em #f6b61b,
+        -1em 13em #f6b61b,
+        -1em 14em #f6b61b,
+        -1em 15em #000000,
+        
+        /* column 0 */
+        0 0 #000000,
+        0 1em #ffffff,
+        0 2em #ffffff,
+        0 3em #ffffff,
+        0 4em #f6b61b,
+        0 5em #f6b61b,
+        0 6em #f6b61b,
+        0 7em #f6b61b,
+        0 8em #f6b61b,
+        0 9em #f6b61b,
+        0 10em #f6b61b,
+        0 11em #f6b61b,
+        0 12em #ffffff,
+        0 13em #f6b61b,
+        0 14em #f6b61b,
+        0 15em #f6b61b,
+        0 16em #000000,
+        
+        /* column 1 */
+        1em 0 #000000,
+        1em 1em #f6b61b,
+        1em 2em #f6b61b,
+        1em 3em #f6b61b,
+        1em 4em #000000,
+        1em 5em #f6b61b,
+        1em 6em #f6b61b,
+        1em 7em #f6b61b,
+        1em 8em #f6b61b,
+        1em 9em #f6b61b,
+        1em 10em #f6b61b,
+        1em 11em #f6b61b,
+        1em 12em #000000,
+        1em 13em #f6b61b,
+        1em 14em #f6b61b,
+        1em 15em #f6b61b,
+        1em 16em #000000,
+        
+        /* column 2 */
+        2em 1em #000000,
+        2em 2em #f6b61b,
+        2em 3em #f6b61b,
+        2em 4em #f6b61b,
+        2em 5em #000000,
+        2em 6em #000000,
+        2em 7em #000000,
+        2em 8em #000000,
+        2em 9em #000000,
+        2em 10em #000000,
+        2em 11em #000000,
+        2em 12em #ffffff,
+        2em 13em #f6b61b,
+        2em 14em #f6b61b,
+        2em 15em #000000,
+        
+        /* column 3 */
+        3em 2em #000000,
+        3em 3em #f6b61b,
+        3em 4em #000000,
+        3em 5em #f6b61b,
+        3em 6em #f6b61b,
+        3em 7em #f6b61b,
+        3em 8em #f6b61b,
+        3em 9em #f6b61b,
+        3em 10em #f6b61b,
+        3em 11em #f6b61b,
+        3em 12em #000000,
+        3em 13em #f6b61b,
+        3em 14em #000000,
+        
+        /* column 4 */
+        4em 3em #000000,
+        4em 4em #f6b61b,
+        4em 5em #f6b61b,
+        4em 6em #f6b61b,
+        4em 7em #f6b61b,
+        4em 8em #f6b61b,
+        4em 9em #f6b61b,
+        4em 10em #f6b61b,
+        4em 11em #f6b61b,
+        4em 12em #f6b61b,
+        4em 13em #000000,
+        
+        /* column 5 */
+        5em 4em #000000,
+        5em 5em #000000,
+        5em 6em #000000,
+        5em 7em #000000,
+        5em 8em #000000,
+        5em 9em #000000,
+        5em 10em #000000,
+        5em 11em #000000,
+        5em 12em #000000;
+}
