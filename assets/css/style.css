@@ -49,15 +49,16 @@ html, body {
 
 .wins {
     position: absolute;
-    font-size: 40px;
+    font-size: 30px;
     right: 0px;
     top: 0px;
 }
 
 .losses {
     position: absolute;
+    font-size: 30px;
     right: 0px;
-    top: 100px;
+    top: 50px;
 }
 
 .game-container {

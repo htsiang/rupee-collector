@@ -128,7 +128,10 @@ $(document).on("keypress", function(event) {
     }
     else if (playerScore>goalScore) {
         alert("you lost");
+
         lossCount++;
+        $(".losses").prepend('<img src="assets/images/skull.jpg" width="50px"/>');
+
         newGame();
     };
 });
